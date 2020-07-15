@@ -1,12 +1,5 @@
 package com.hamidsolutions.services.api.gateway.config.security;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.stereotype.Component;
-
-import java.util.Collection;
-
 //@Component
 public class CustomUserDetailsService {//implements UserDetails {
 //    @Autowired

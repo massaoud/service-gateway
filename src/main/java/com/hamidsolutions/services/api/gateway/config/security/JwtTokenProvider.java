@@ -14,10 +14,10 @@ public class JwtTokenProvider {
     Environment environment;
     private String secretkey;
 
-   @PostConstruct
-    protected void init(){
-       secretkey = Base64.getEncoder().encodeToString(environment.getProperty("token.secret").getBytes());
-   }
+    @PostConstruct
+    protected void init() {
+        secretkey = Base64.getEncoder().encodeToString(environment.getProperty("token.secret").getBytes());
+    }
 
 }
 
